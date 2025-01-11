@@ -4,23 +4,23 @@
     "https://w3id.org/security/multikey/v1",
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
-  "id": "did:web:julis.pet",
+  "id": "did:web:fae.mom",
   "alsoKnownAs": [
-    "at://julis.pet"
+    "at://fae.mom"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:julis.pet#atproto",
+      "id": "did:web:fae.mom#atproto",
       "type": "Multikey",
-      "controller": "did:web:julis.pet",
-      "publicKeyMultibase": "zQ3shuAaGx1v2dFQPwzvKCrfz9bv8aRUAuvbAnXrHrMwMi2qz"
+      "controller": "did:web:fae.mom",
+      "publicKeyMultibase": "zDnaem12TVkRCaKw8ZvEryY2NT6YCk63Lh8RXgVyCVGmUmEaa"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://pds.moe"
+      "serviceEndpoint": "https://https://rat.mom"
     }
   ]
 }
