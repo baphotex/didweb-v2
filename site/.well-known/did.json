@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:julis.pet",
+  "alsoKnownAs": [
+    "at://julis.pet"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:julis.pet#atproto",
+      "type": "Multikey",
+      "controller": "did:web:julis.pet",
+      "publicKeyMultibase": "zQ3shuAaGx1v2dFQPwzvKCrfz9bv8aRUAuvbAnXrHrMwMi2qz"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://pds.moe"
+    }
+  ]
+}
