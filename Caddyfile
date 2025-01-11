@@ -8,14 +8,14 @@
 }
 
 
-*.julis.pet {
+*.fae.mom {
         tls {
                 on_demand
         }
         reverse_proxy http://localhost:3000
 }
 
-julis.pet {
+fae.mom {
         handle /.well-known/* { 
                 header {
                         Access-Control-Allow-Origin *
