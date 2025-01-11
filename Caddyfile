@@ -1,0 +1,33 @@
+:{$PORT}
+
+{
+        email baphotex+julispet@gmail.com
+        on_demand_tls {
+                ask http://localhost:3000/tls-check
+        }
+}
+
+
+*.julis.pet {
+        tls {
+                on_demand
+        }
+        reverse_proxy http://localhost:3000
+}
+
+julis.pet {
+        handle /.well-known/* { 
+                header {
+                        Access-Control-Allow-Origin *
+                }
+                root * /srv
+                file_server
+        }
+
+        tls { 
+                on_demand
+        }
+        reverse_proxy http://localhost:3000
+} 
+
+
