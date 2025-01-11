@@ -13,14 +13,14 @@
       "id": "did:web:fae.mom#atproto",
       "type": "Multikey",
       "controller": "did:web:fae.mom",
-      "publicKeyMultibase": "zDnaeVRYoV5KsbvHcoEFdA15E4RvfJsB7qJqmHjmi4jA6bujF"
+      "publicKeyMultibase": "zDnaeVw2UFUpzhL2h7HPeAhQywNZrFRoV81xTG1t7oHxvfRBe"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://https://rat.mom"
+      "serviceEndpoint": "https://rat.mom"
     }
   ]
 }
