@@ -13,7 +13,7 @@
       "id": "did:web:fae.mom#atproto",
       "type": "Multikey",
       "controller": "did:web:fae.mom",
-      "publicKeyMultibase": "zDnaeVw2UFUpzhL2h7HPeAhQywNZrFRoV81xTG1t7oHxvfRBe"
+      "publicKeyMultibase": "zDnaebae3SQRPJkwT9dN8ErkMNdQFkUdsLgoVSK9uzNvxzoMA"
     }
   ],
   "service": [
